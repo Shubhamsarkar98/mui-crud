@@ -1,15 +1,8 @@
-import React from 'react';
-import { TextField } from '@mui/material'
+import React from 'react'
 
-function FormInput({label}) {
+const FormInput = () => {
   return (
-    <>
-hello world
-        <TextField
-          label={label}
-          variant="outlined"
-        />
-    </>
+    <div>FormInput</div>
   )
 }
 
