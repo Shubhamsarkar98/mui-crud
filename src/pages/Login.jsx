@@ -11,6 +11,13 @@ function Login() {
                 name="email"
                 placeholder="Enter your email"
             />
+             <FormInput
+                type="password"
+                label="Password: "
+                id="password"
+                name="password"
+                placeholder="Enter your password"
+            />
         </>
     )
 }
