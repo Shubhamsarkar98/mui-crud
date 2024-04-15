@@ -1,9 +1,27 @@
 import React from 'react'
-
-const FormInput = () => {
+import { TextField, Stack, InputLabel } from '@mui/material';
+const FormInput = ({label, id , name, placeholder, type}) => {
   return (
-    <div>FormInput</div>
-  )
+    <Stack>
+        <InputLabel
+            htmlFor={id}
+            sx={{
+                fontSize: '16px',
+                color: 'black',
+            }}
+        >
+            {label}
+        </InputLabel>
+        <TextField
+            id={id}
+            name={name}
+            placeholder={placeholder}
+            type={type}
+            variant="outlined"
+            size='small'
+        />
+    </Stack>
+);
 }
 
 export default FormInput

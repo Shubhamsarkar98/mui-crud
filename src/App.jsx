@@ -1,10 +1,10 @@
-import FormInput from './components/form Component/FormInput';
-import {TextField} from '@mui/material';
+import React from 'react';
+import Login from './pages/Login';
 function App() {
 
   return (
    <>
-    <TextField id="outlined-basic" label="Outlined" variant="outlined" />
+    <Login/>
    </>
   )
 }

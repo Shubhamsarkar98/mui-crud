@@ -4,7 +4,13 @@ import FormInput from '../components/form Component/FormInput'
 function Login() {
     return (
         <>
-            <FormInput label="custom label" />
+            <FormInput
+                type="email"
+                label="User Email Id:"
+                id="email"
+                name="email"
+                placeholder="Enter your email"
+            />
         </>
     )
 }
